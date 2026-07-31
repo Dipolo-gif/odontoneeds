@@ -3,13 +3,35 @@
 Site institucional de alto padrão, sem rolagem vertical tradicional.
 Zero dependências externas: abre offline, não usa CDN, não precisa de build.
 
-## Rodar
+**No ar:** https://dipolo-gif.github.io/odontoneeds/
+
+## Rodar local
 
 ```bash
 node server.js
 ```
 
 → http://localhost:5180
+
+## Publicar
+
+Hospedado no GitHub Pages, servindo a raiz do branch `main`. Não há build:
+todo push para `main` republica o site em cerca de um minuto.
+
+```bash
+git push
+```
+
+O site está com `<meta name="robots" content="noindex, nofollow">` porque a
+equipe e os dados cadastrais ainda são fictícios. **Apague essa linha do
+`index.html` quando o conteúdo for real**, senão o site nunca aparece em
+buscador.
+
+### Para migrar ao Vercel depois
+
+O CLI do Vercel exige login por navegador, então o caminho é pelo painel:
+importar `Dipolo-gif/odontoneeds` em vercel.com/new. Como não há build,
+o preset é "Other" e o output directory é a raiz.
 
 ## Arquitetura
 
