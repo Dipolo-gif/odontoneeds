@@ -1,0 +1,14 @@
+# Foto original do consultório em resolução cheia (6,4 MB).
+# A versão publicada é public/hero-equipe.jpg, gerada por tools/grade.ps1.
+# Mantida fora do repositório por peso; guarde o original localmente se
+# precisar regerar o recorte.
+public/src-equipe-consultorio.png
+
+# Foto pessoal da dupla no evento de formatura. Não é usada em nenhuma tela
+# do site, então não há motivo para expô-la num repositório público.
+public/src-equipe.jpg
+
+# lixo de sistema
+Thumbs.db
+desktop.ini
+.DS_Store
